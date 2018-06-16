@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.DeleteContact">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="14dp"
+        android:text="Eliminar" />
+
+    <TextView
+        android:id="@+id/txt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Nombre"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/TxtNombre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_nombre"
+        android:layout_below="@id/titulo"
+        android:layout_toRightOf="@+id/txt_provincia"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txt_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtNombre"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Edad"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/TxtEdad"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_edad"
+        android:layout_below="@+id/TxtNombre"
+        android:layout_toRightOf="@+id/txt_provincia"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txt_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtEdad"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Teléfono"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/TxtTelefono"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_telefono"
+        android:layout_below="@+id/TxtEdad"
+        android:layout_toRightOf="@+id/txt_provincia"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtTelefono"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/TxtEmail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_email"
+        android:layout_below="@+id/TxtTelefono"
+        android:layout_toRightOf="@+id/txt_provincia"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txt_provincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtEmail"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Provincia"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/provincias"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txt_provincia"
+        android:layout_below="@id/txt_provincia"
+        android:layout_toRightOf="@+id/txt_provincia"></TextView>
+
+    <Button
+        android:id="@+id/boton_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/provincias"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/boton_exportar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/provincias"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/boton_eliminar"
+        android:text="Exportar" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre Actividad Ajustes-->
+    <string name="Habilitar">Habilitar Eliminar Contacto</string>
+    <string-array name="tamañoletra_entradas">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+        </string-array>
+
+    <string-array name="tamañoletras_valores">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+    </string-array>
+    <string name="letra_resumen">Tamaños para las letras</string>
+
+
+    <string name="nombre_fondo">Cambiar color de fondo</string>
+    <string-array name="entradas_fondo">
+        <item>Rojo</item>
+        <item>Azule</item>
+        <item>Blanco</item>
+    </string-array>
+    <string-array name="valores_fondo">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>White</item>
+    </string-array>
+    <string name="resumen_fondo">Cambiar el color de fondo de contactos</string>
+
+    <string name="nombre_lista">Tipo de vista</string>
+    <string-array name="entradas_lista">
+        <item>Lista</item>
+        <item>Columna</item>
+
+    </string-array>
+    <string-array name="valores_lista">
+        <item>Lista</item>
+        <item>Columna</item>
+    </string-array>
+    <string name="resumen_lista">Cambia la forma de mostrar los contactos</string>
+</resources>

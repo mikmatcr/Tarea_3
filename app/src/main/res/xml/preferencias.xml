@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="quitar_borrar"
+        android:title="@string/Habilitar"
+        />
+
+    <ListPreference
+    android:key="letra"
+    android:title="Tamaño Letra"
+    android:defaultValue="12"
+    android:entries="@array/tamañoletra_entradas"
+    android:entryValues="@array/tamañoletras_valores"
+    android:summary="@string/letra_resumen"
+    />
+
+    <ListPreference
+        android:key="fondo"
+        android:title="@string/nombre_fondo"
+        android:defaultValue="Blanco"
+        android:entries="@array/entradas_fondo"
+        android:entryValues="@array/valores_fondo"
+        android:summary="@string/resumen_fondo"
+        />
+
+    <ListPreference
+        android:key="lista"
+        android:title="@string/nombre_lista"
+        android:defaultValue="Lista"
+        android:entries="@array/entradas_lista"
+        android:entryValues="@array/valores_lista"
+        android:summary="@string/resumen_lista"
+        />
+
+
+</PreferenceScreen>
